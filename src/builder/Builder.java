@@ -54,6 +54,18 @@ class HtmlBuilder {
         root.elements.add(e);
     }
 
+    /**
+     * fluent builder that returns own class...
+     * @param childName
+     * @param childText
+     * @return
+     */
+    public HtmlBuilder addChildFluent(String childName, String childText) {
+        HtmlElement e = new HtmlElement(childName, childText);
+        root.elements.add(e);
+        return this;
+    }
+
     public void clear() {
         root = new HtmlElement();
         root.name = rootName;
@@ -93,8 +105,12 @@ public class Builder {
          */
 
         HtmlBuilder builder = new HtmlBuilder("ul");
-        builder.addChild("li","hello");
-        builder.addChild("li","world");
+       // builder.addChild("li","hello");
+       // builder.addChild("li","world");
+
+
+        builder.addChildFluent("li","hello");
+        builder.addChildFluent("li","world");
         System.out.println(builder);
 
     }
