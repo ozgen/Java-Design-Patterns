@@ -1,4 +1,4 @@
-package com.activemesa.creational.factories;
+package factories;
 
 import org.javatuples.Pair;
 import org.reflections.Reflections;
