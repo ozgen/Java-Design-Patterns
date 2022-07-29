@@ -66,8 +66,17 @@ class Person2 {
         if (this.age == age) {
             return;
         }
+        boolean oldCanVote = getCanVote();
         this.age = age;
         propertyChanged.fire(new PropertyChangedEventArgs2(this, "age"));
+        boolean canVote = getCanVote();
+        if (oldCanVote != canVote) {
+            propertyChanged.fire(new PropertyChangedEventArgs2(this, "vote value"));
+        }
+    }
+
+    public boolean getCanVote() {
+        return age >= 18;
     }
 }
 
@@ -79,7 +88,7 @@ public class ObserverEventDemo {
             System.out.println(" Person's " + x.propertyName + " has changed.");
         });
 
-        person.setAge(20);
+        person.setAge(17);
         person.setAge(21);
         subs.close();
         person.setAge(29);
