@@ -12,7 +12,6 @@ class EventBroker extends Observable<Integer> {
     List<Observer<? super Integer>> observers = new ArrayList<>();
 
     @Override
-
     protected void subscribeActual(Observer<? super Integer> observer) {
         observers.add(observer);
     }
