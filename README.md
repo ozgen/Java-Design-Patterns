@@ -9,7 +9,7 @@ Design patterns :
     * [srp](https://github.com/ozgen/java-design-patterns/blob/main/src/main/java/solid/srp/SRP.java)
     * [ocp](https://github.com/ozgen/java-design-patterns/blob/main/src/main/java/solid/ocp/OCP.java)
     * [lsp](https://github.com/ozgen/java-design-patterns/blob/main/src/main/java/solid/lsp/LSP.java)
-    * [isp](https://github.com/ozgen/java-design-patterns/blob/main/src/main/java/solid/sip/ISP.java)
+    * [isp](https://github.com/ozgen/java-design-patterns/blob/main/src/main/java/solid/isp/ISP.java)
     * [dip](https://github.com/ozgen/java-design-patterns/blob/main/src/main/java/solid/dip/DIP.java)
 * builder design pattern:
     * [facet builder](/src/main/java/builder/DemoFacetBuilder.java)
