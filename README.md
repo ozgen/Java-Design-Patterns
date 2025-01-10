@@ -3,7 +3,12 @@
 This project includes SOLID principles
 and all design patterns examples in Java-17
 
-Design patterns :
+## Wiki
+
+For detailed explanations of design patterns and SOLID principles, visit our [Wiki Page](https://github.com/your-repository-name/wiki).
+
+
+## Design patterns :
 
 * solid principles:
     * [srp](https://github.com/ozgen/java-design-patterns/blob/main/src/main/java/solid/srp/SRP.java)
