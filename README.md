@@ -5,7 +5,7 @@ and all design patterns examples in Java-17
 
 ## Wiki
 
-For detailed explanations of design patterns and SOLID principles, visit our [Wiki Page](https://github.com/your-repository-name/wiki).
+For detailed explanations of design patterns and SOLID principles, visit our [Wiki Page](https://github.com/ozgen/java-design-patterns/wiki/Java-Design-Patterns-Wiki).
 
 
 ## Design patterns :
